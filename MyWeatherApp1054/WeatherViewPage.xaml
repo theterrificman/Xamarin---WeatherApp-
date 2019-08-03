@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyWeatherApp1054.WeatherViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{Binding CityImage}" />
+            <Label Text="{Binding CityName}" />
+            <Label Text="{Binding CityTemp}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
